@@ -25,5 +25,8 @@ for i in range(0, all_tickets):
 discount_prise = int(full_prise * 0.9)
 if all_tickets > 3:
     print('Стоимость всех билетов со скидкой: ', discount_prise, "руб.")
-else:
+    else:
     print('Стоимость всех билетов: ', full_prise, "руб.")
+
+
+
